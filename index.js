@@ -9,6 +9,12 @@ for(i = 0; i < 9 ; i++){
 
 }
 
+let box1 = document.querySelector("#box1")
+box1.addEventListener("click" , function(){
+    console.log("box 1 pressed")
+})
+
+
 let number = 0
 
 for(i = 0; i < 9; i++){
